@@ -1,3 +1,5 @@
+import static java.lang.System.out;
+
 public class AutoBoxing {
 
     public static void main(String[] args) {
@@ -8,8 +10,8 @@ public class AutoBoxing {
         Boolean flag  = true;
         boolean isBug = new Boolean(false);
 
-        System.out.println(a + b);
-        System.out.println(flag + " " + isBug);
+        out.println(a + b);
+        out.println(flag + " " + isBug);
 
     }
 
